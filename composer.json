@@ -1,0 +1,22 @@
+{
+    "name": "oasin/bitcoin-converter",
+    "description": "Convert Bitcoin to Fiat currency",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10",
+        "illuminate/cache": "^10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Oasin\\BitcoinConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "oasin",
+            "email": "31675779+oasin@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
