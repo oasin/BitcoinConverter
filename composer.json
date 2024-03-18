@@ -8,6 +8,12 @@
     },
     "license": "MIT",
     "autoload": {
+        "files": [
+            "src/BitcoinConverter/config/currency_code_checker_helper.php",
+            "src/BitcoinConverter/config/currency_formatter_helper.php",
+            "src/BitcoinConverter/config/converter_helper.php",
+            "src/BitcoinConverter/config/path_helper.php"
+        ],
         "psr-4": {
             "Oasin\\BitcoinConverter\\": "src/"
         }
